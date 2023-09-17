@@ -1,0 +1,24 @@
+Package: DBFEr
+Type: Package
+Title: Distribution Based Feature Extraction
+Version: 1.0
+Author: BIOSTAT615 Group8
+Maintainer: Yuting Duan <yutingd@umich.edu>
+Description: This package extract features based on distribution of lengths.
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: 
+    mclust,
+    dplyr,
+    tidyverse,
+    Rcpp,
+    stats
+ByteCompile: TRUE
+LinkingTo: Rcpp
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.2
